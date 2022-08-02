@@ -10,6 +10,10 @@ body {
     color: rgb(16, 0, 40);
 }
 
+.hide {
+    display: none;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -17,11 +21,13 @@ h1 {
     margin-bottom: 1rem;
 }
 
-#posts-container,
-#loading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+#posts-container {
+    padding: 50px;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        margin-top: 2rem;
+    }
 }
